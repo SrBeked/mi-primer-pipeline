@@ -1,0 +1,29 @@
+{
+  "name": "mi-primer-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrBeked/mi-primer-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrBeked/mi-primer-pipeline/issues"
+  },
+  "homepage": "https://github.com/SrBeked/mi-primer-pipeline#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "jest": "^29.7.0"
+  }
+}
